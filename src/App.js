@@ -63,7 +63,7 @@ function App() {
           type="checkbox"
           onChange={e => setShow(e.target.checked)}
         />{' '}
-        Show stopwatch
+        展示倒计时
       </label>
       {show ? <Stopwatch /> : null}
     </div>
