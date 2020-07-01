@@ -41,7 +41,9 @@
     "react": "^16.8.4",
     "react-app-polyfill": "^0.2.2",
     "react-dev-utils": "^8.0.0",
+    "react-document-title": "^2.0.3",
     "react-dom": "^16.8.4",
+    "react-router-dom": "^5.2.0",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
@@ -115,5 +117,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "less": "^3.11.3",
+    "less-loader": "^6.1.3"
   }
 }
